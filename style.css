@@ -1,0 +1,32 @@
+img{
+    display: none;
+}
+
+html, body, aside{
+    height: 100%;
+}
+
+.aside-wrap{
+    width: 240px;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(2, 200, 143), rgb(0, 26, 143));
+}
+
+.aside-wrap .menu-list{
+    list-style: none;
+}
+
+.aside-wrap .menu-item{
+    line-height: 3;
+}
+
+.aside-wrap .menu-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.aside-wrap .menu-link:hover{
+    border-bottom: 2px solid;
+}
